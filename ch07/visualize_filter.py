@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from simple_convnet import SimpleConvNet
 
+
 def filter_show(filters, nx=8, margin=3, scale=10):
     """
     c.f. https://gist.github.com/aidiary/07d530d5e08011832b12#file-draw_weight-py
